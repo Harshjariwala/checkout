@@ -1,0 +1,360 @@
+/*Updated CSS*/
+
+.whats-in-box .main-page {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0;
+    margin-top: 62px;
+}
+
+.whats-in-box .form-sec {
+    width: 100%;
+    padding: 30px 30px 70px 30px;
+    display: block;
+}
+
+.spz-leftCol {
+    margin-right: 8px;
+}
+
+.css-yrxlnk {
+    background-color: #f9fafb!important;
+}
+
+.whats-in-box input.css-36plwo,
+.css-k46iw5 .recurly-element-inline .recurly-element,
+[data-css-k46iw5] .recurly-element-inline .recurly-element,
+.css-gicjkr .recurly-element-inline .recurly-element,
+[data-css-gicjkr] .recurly-element-inline .recurly-element,
+.css-d6rd3t .country-wrapper,
+[data-css-d6rd3t] .country-wrapper {
+    background-color: #f9fafb!important;
+    border: 1px solid #d1d8e0;
+}
+
+
+/*Title Block*/
+
+.whats-in-box .css-1uzl7ve,
+.whats-in-box .css-1uzl7ve .title-block {
+    margin-bottom: 40px;
+}
+
+.whats-in-box .hero-title {
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: initial!important;
+    margin-bottom: 4px;
+    margin-left: 17px
+}
+
+
+/*Hide Block*/
+
+.hide-text {
+    display: none;
+}
+
+
+/* Geo Block */
+
+.whats-in-box .geo-block {
+    display: flex;
+    margin-bottom: 15px;
+    margin-left: -4px;
+}
+
+.whats-in-box .geo-block .geo-content {
+    font-family: geomanistlight, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    color: #26282d;
+    margin-left: 7px;
+    margin-top: -1px;
+}
+
+.whats-in-box .geo-block .geo-point {
+    height: 31px;
+    width: 32px;
+    margin-left: 4px
+}
+
+.whats-in-box .medium {
+    font-family: geomanistmedium, Arial, Helvetica, sans-serif;
+    font-weight: 500
+}
+
+.whats-in-box .orange {
+    color: #f16334
+}
+
+
+/* Main Subtitle */
+
+.whats-in-box .main-subtitle {
+    font-family: geomanistlight, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #26282d;
+    margin-top: 11px;
+    margin-bottom: 26px;
+    max-width: 562px;
+}
+
+.whats-in-box .main-subtitle u {
+    font-family: geomanistlight, Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+
+/* Befenits List */
+
+.whats-in-box .new-benefit-lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    max-width: 596px
+}
+
+.whats-in-box .new-benefit-lists li {
+    display: flex;
+    align-items: center;
+    flex: 50%;
+    width: 50%;
+    margin-bottom: 19px;
+}
+
+.whats-in-box .new-benefit-lists img {
+    height: 36px;
+    margin-right: 22px;
+    margin-bottom: -3px;
+}
+
+.whats-in-box .new-benefit-lists p {
+    font-family: geomanistlight, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: #26282d;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+}
+
+
+/*Dropdown*/
+
+.css-avzrp1 {
+    margin-top: 30px;
+    min-width: 500px;
+}
+
+.css-1uzl7ve {
+    position: relative;
+}
+
+.selector,
+.css-1ta569j {
+    position: absolute;
+    top: 0;
+    left: 101%;
+    max-width: 560px;
+    width: 100%;
+}
+
+
+/*Dropdown text*/
+
+.css-x91rjw {
+    position: inherit;
+}
+
+.css-e0mskc {
+    margin: 10px 0px 0px 0px;
+}
+
+
+/*Right Side Form*/
+
+.css-1csbn7c {
+    margin-top: 160px;
+    max-width: 560px;
+}
+
+.whats-in-box form {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.css-k2ug27,
+.css-a4cn5 {
+    top: -37px;
+    right: -35px;
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    transform: rotate(-21deg);
+    line-height: 1;
+    font-family: geomanistlight, Arial, Helvetica, sans-serif;
+    padding: 0 0 12px 22px;
+    ;
+}
+
+.css-pysoda {
+    font-family: geomanistmedium, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #f16334;
+    margin-bottom: 30px;
+}
+
+.checkout-terms {
+    white-space: normal;
+    line-height: 0em;
+    font-size: 14px;
+}
+
+.css-hd4lt0 {
+    margin: 0px;
+}
+
+.css-1eqvxdw {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin: 25px 0 15px 0;
+}
+
+.css-esq9du {
+    max-width: 245px;
+    margin-left: auto;
+}
+
+.whats-in-box form .css-p520mj+div {
+    max-width: 500px;
+    width: 100%;
+}
+
+.checkout-btn-title {
+    max-width: 500px;
+    width: 100%;
+    background-color: #f16334;
+    color: #fff;
+    border: 1px solid #f16334;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.css-1bz3pcg {
+    padding: 5px 10px;
+}
+
+.whats-in-box form .css-1bz3pcg img {
+    height: 23px;
+    width: 30px;
+}
+
+.css-k46iw5 {
+    max-width: 245px;
+    display: block;
+    width: 100%;
+    color: #26282d;
+    margin-bottom: 10px;
+}
+
+.css-esq9du>div:first-child,
+.css-esq9du>div:nth-child(2) {
+    margin-right: 0px;
+}
+
+.css-d6rd3t {
+    max-width: 245px;
+    width: 100%;
+    display: block;
+}
+
+.css-1wetvnk {
+    max-width: 245px;
+    width: 100%;
+    margin-left: auto;
+}
+
+.css-p520mj {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Min-Screen Size: 1024px Desktop only*/
+
+@media (max-width:1310px) {
+    .whats-in-box .main-page {
+        max-width: 910px;
+    }
+    .whats-in-box .hero-title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .spz-rightCol {
+        max-width: 400px;
+        min-width: initial;
+    }
+    .whats-in-box .form-sec {
+        padding: 30px 30px 40px;
+    }
+    .selector,
+    .css-1ta569j {
+        min-width: 400px;
+        max-width: 400px;
+    }
+    .whats-in-box .main-subtitle {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .whats-in-box .new-benefit-lists img {
+        margin-right: 10px;
+        height: 30px;
+    }
+    .whats-in-box .new-benefit-lists p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .whats-in-box .css-k2ug27 {
+        right: -35px;
+    }
+    .css-1wetvnk,
+    .css-d6rd3t,
+    .css-k46iw5,
+    .css-esq9du {
+        max-width: 165px;
+    }
+    .css-pysoda {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .checkout-terms {
+        font-size: 11px;
+    }
+    .css-1eqvxdw {
+        font-size: 16px;
+    }
+    .checkout-btn-title {
+        line-height: 10px;
+    }
+    .css-k46iw5 .recurly-element-inline .recurly-element,
+    [data-css-k46iw5] .recurly-element-inline .recurly-element,
+    .css-gicjkr .recurly-element-inline .recurly-element,
+    [data-css-gicjkr] {
+        padding: 5px;
+    }
+}

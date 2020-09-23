@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Accordion_NeilPatel</title>
+    <style>
+        .wrapper {
+            width: 500px;
+            margin: 80px auto 0;
+        }
+        
+        .wrapper .accordion_wrap {
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+            margin: 1rem auto;
+        }
+        
+        .wrapper .accordion_wrap .accordion_header {
+            width: 100%;
+            height: 50px;
+            background-color: #fafafa;
+            padding: 15px;
+            padding-left: 80px;
+            color: #F16334;
+            font-weight: 700;
+            position: relative;
+            cursor: pointer;
+        }
+        
+        .wrapper .accordion_wrap .accordion_header:before {
+            content: url('http://127.0.0.1:5500/assets/Group%20709.png');
+            position: absolute;
+            left: 15px;
+        }
+        
+        .wrapper .accordion_wrap .accordion_header.active:before {
+            content: url('http://127.0.0.1:5500/assets/Group%20705.png');
+            position: absolute;
+            left: 15px;
+            bottom: 35%;
+        }
+        
+        .wrapper .accordion_wrap .accordion_body {
+            width: 100%;
+            height: 0px;
+            transition: all 0.5s ease-in-out;
+            background-color: #fafafa;
+            overflow: hidden;
+        }
+        
+        .wrapper .accordion_wrap .accordion_body p {
+            padding: 15px;
+            font-size: 15px;
+            line-height: 22px;
+            background-color: #fafafa;
+        }
+        
+        .wrapper .accordion_wrap .accordion_header.active {
+            color: #111;
+            border-bottom: 2px solid rgba(17, 17, 17, 0.212);
+        }
+        
+        .wrapper .accordion_wrap .accordion_header.active+.accordion_body {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="accordion_wrap accordion_1">
+            <div class="accordion_header active">
+                Week 1: Finding Profitable Keywords
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_2">
+            <div class="accordion_header">
+                Week 2: Site SEO Audit
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_3">
+            <div class="accordion_header">
+                Week 3: Creating Shareable Content
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_4">
+            <div class="accordion_header">
+                Week 4: Advanced Tracking
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_5">
+            <div class="accordion_header">
+                Week 5: Link Building
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_6">
+            <div class="accordion_header">
+                Week 6: Branding & Experience
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion_wrap accordion_7">
+            <div class="accordion_header">
+                Week 7
+            </div>
+            <div class="accordion_body">
+                <ul style="padding: 1.5rem 3rem;">
+                    <li>Generating keyword ideas for your business</li>
+                    <li>Evaluating keywords for traffic, value, and attainability</li>
+                    <li>Setting up automated tracking of your targeted keywords</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        const accordionItemHeaders1 = document.querySelectorAll(".accordion_header");
+
+        accordionItemHeaders1.forEach(accordionItemHeader1 => {
+            accordionItemHeader1.addEventListener("click", event => {
+                //debugger;
+                for (var i = 0; i < accordionItemHeaders1.length; i++) {
+                    if (accordionItemHeaders1[i].className == "accordion_header active") {
+                        accordionItemHeaders1[i].classList.remove('active');
+                    }
+                }
+                accordionItemHeader1.classList.toggle("active");
+            });
+        });
+    </script>
+</body>
+
+</html>

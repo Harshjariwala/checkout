@@ -1,0 +1,237 @@
+/*Updated CSS*/
+
+.main-page {
+    margin-top: 7.7vh;
+    padding: 0px 8vw;
+}
+
+.form-sec {
+    width: 100%;
+    padding: 30px 30px 70px 30px;
+}
+
+.hero-title {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.title-block {
+    width: 100%;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-family: geomanistlight;
+    font-weight: 300;
+    margin: 0px;
+    text-transform: none;
+}
+
+.hide-text {
+    display: none;
+}
+
+.css-1uzl7ve {
+    position: relative;
+}
+
+.selector,
+.css-1ta569j {
+    position: absolute;
+    top: 0;
+    left: 115%;
+    min-width: 500px
+}
+
+.checkout-terms {
+    white-space: normal;
+    line-height: 0em;
+    font-size: 14px;
+}
+
+.checkout-title {
+    width: 100%;
+    background-color: #f16334;
+    color: #fff;
+    border: 1px solid #f16334;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.pin_box {
+    width: 50%;
+}
+
+.css-1wetvnk {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.css-hd4lt0 {
+    margin: 0px;
+}
+
+.css-1eqvxdw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    margin: 25px 0 15px 0;
+}
+
+.css-e0mskc {
+    margin: 10px 0px 0px 0px;
+}
+
+.css-pysoda {
+    font-size: 26px;
+    line-height: 1.0em;
+}
+
+.css-1csbn7c {
+    margin-top: 160px;
+}
+
+.css-avzrp1 {
+    margin-top: 30px;
+    min-width: 500px;
+}
+
+.cvv {
+    order: 1;
+    flex: 1 1 100%;
+}
+
+.cno {
+    order: -1;
+    flex: 1 1 300%;
+}
+
+.css-esq9du>div:first-child {
+    margin-left: 10px;
+}
+
+.css-esq9du>div:first-child,
+.css-esq9du>div:nth-child(2) {
+    margin-right: 0px;
+    flex: 1 1 100%;
+}
+
+.css-d6rd3t {
+    margin-right: 10px;
+}
+
+.css-36plwo {
+    flex: 1 1 33%;
+}
+
+.css-1bz3pcg {
+    padding: 5px 10px;
+}
+
+.css-k2ug27,
+.css-a4cn5 {
+    top: -39px;
+    right: -31px;
+}
+
+
+/*Accrodin-CSS Start*/
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper .accordion_wrap {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    margin: 1rem auto;
+}
+
+.wrapper .accordion_wrap .accordion_header {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 15px 15px 15px 60px;
+    color: #F16334;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: geomanistmedium;
+    position: relative;
+    cursor: pointer;
+}
+
+.wrapper .accordion_wrap .accordion_header:before {
+    content: url('http://127.0.0.1:5500/assets/Group%20709.png');
+    position: absolute;
+    left: 15px;
+}
+
+.wrapper .accordion_wrap .accordion_header.active:before {
+    content: url('http://127.0.0.1:5500/assets/Group%20705.png');
+    position: absolute;
+    left: 15px;
+    bottom: 38%;
+}
+
+.wrapper .accordion_wrap .accordion_body {
+    width: 100%;
+    height: 0px;
+    font-size: 14px;
+    font-family: geomanistlight;
+    transition: all 0.5s ease;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.wrapper .accordion_wrap .accordion_body ul.list {
+    padding: 0rem 4.5rem;
+    line-height: 25px;
+}
+
+.wrapper .accordion_wrap .accordion_body li {
+    list-style-type: disc;
+    font-size: 14px;
+    font-family: geomanistlight;
+}
+
+.wrapper .accordion_wrap .accordion_body p {
+    padding: 15px;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #fafafa;
+}
+
+.wrapper .accordion_wrap .accordion_header.active {
+    color: #111;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.212);
+}
+
+.wrapper .accordion_wrap .accordion_header.active+.accordion_body {
+    height: auto;
+}
+
+
+/*Accrodin-CSS End*/
+
+
+/*Min-Screen Size: 1024px Desktop only*/
+
+@media screen and (max-width:1200px) {
+    .css-1ezodpr {
+        margin-right: 2vw;
+    }
+    .selector,
+    .css-1ta569j {
+        left: 108%;
+        min-width: 475px;
+    }
+    .css-pysoda {
+        font-size: 22px;
+    }
+    .sub-title {
+        line-height: 22px;
+    }
+    .css-1kj20mm {
+        width: 95%;
+    }
+}
